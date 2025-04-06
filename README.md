@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# TelePrompter App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, feature-rich teleprompter application built with React that helps content creators, speakers, and presenters deliver speeches and content with ease.
 
-## Available Scripts
+<!-- 
+TODO: Add an application screenshot here:
+1. Take a screenshot of your application in use
+2. Save it as 'teleprompter-screenshot.png' in the public folder
+3. Then uncomment the following line
+-->
+<!-- ![Teleprompter App Screenshot](public/teleprompter-screenshot.png) -->
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **User-friendly Interface**: Simple and intuitive text input screen
+- **Smooth Scrolling**: Adjustable scrolling speed for comfortable reading
+- **Text Formatting**: Rich text support including bold, italic, and underline options
+- **Customizable Appearance**: Change text color, font size, background color, and alignment
+- **Responsive Design**: Works on desktop, tablet, and mobile devices
+- **Auto-scrolling**: Hands-free scrolling with play/pause controls
+- **Mouse Wheel Support**: Manual scrolling using the mouse wheel
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Frontend library for building the user interface
+- **React Router**: Navigation between the input and teleprompter screens
+- **Material UI**: Component library for modern UI elements
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **LocalStorage API**: For persisting script content between pages
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v14.0 or later)
+- npm (v6.0 or later)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```
+   git clone https://github.com/NaviAndrei/teleprompter-app.git
+   cd teleprompter-app
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-### `npm run eject`
+3. Start the development server:
+   ```
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Enter Your Script**: On the input page, paste or type your script text
+2. **Start Prompter**: Click the "Start Prompter" button to go to the teleprompter view
+3. **Adjust Settings**: Customize appearance, font size, and text alignment
+4. **Control Scrolling**: Use the play/pause button or adjust the speed slider
+5. **Apply Formatting**: Select text and use the formatting toolbar to style your content
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Deployment
 
-## Learn More
+Build the application for production:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The build artifacts will be stored in the `build/` directory, ready to be deployed to any static hosting service like GitHub Pages, Netlify, or Vercel.
 
-### Code Splitting
+## Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Remote control via mobile device
+- Import/export scripts from various formats (PDF, DOCX, TXT)
+- Countdown timer and clock display
+- Speech-to-text functionality
+- Script auto-saving and versioning
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Andrei Ivan - [ivan.andrei@syncwithivan.com](mailto:ivan.andrei@syncwithivan.com)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/NaviAndrei/teleprompter-app](https://github.com/NaviAndrei/teleprompter-app)
