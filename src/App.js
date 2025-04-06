@@ -5,7 +5,7 @@ import TeleprompterPage from './components/TeleprompterPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-teleprompter-pro">
       <div className="App">
         <Routes>
           <Route path="/" element={<InputPage />} />
