@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-teleprompter-pro/static/css/main.aaee3f8c.css",
+    "main.js": "/react-teleprompter-pro/static/js/main.a944b117.js",
+    "static/js/453.fdeb94bc.chunk.js": "/react-teleprompter-pro/static/js/453.fdeb94bc.chunk.js",
+    "index.html": "/react-teleprompter-pro/index.html",
+    "main.aaee3f8c.css.map": "/react-teleprompter-pro/static/css/main.aaee3f8c.css.map",
+    "main.a944b117.js.map": "/react-teleprompter-pro/static/js/main.a944b117.js.map",
+    "453.fdeb94bc.chunk.js.map": "/react-teleprompter-pro/static/js/453.fdeb94bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaee3f8c.css",
+    "static/js/main.a944b117.js"
+  ]
+}
