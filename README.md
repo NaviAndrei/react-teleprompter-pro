@@ -1,14 +1,9 @@
 # TelePrompter App
+[![React-Teleprompter-Pro-Website](https://img.shields.io/badge/React%20Teleprompter%20Pro-Website-blue?style=flat-square&labelColor=blue&color=gray)](https://naviandrei.github.io/react-teleprompter-pro/)
 
 A modern, feature-rich teleprompter application built with React that helps content creators, speakers, and presenters deliver speeches and content with ease.
 
-<!-- 
-TODO: Add an application screenshot here:
-1. Take a screenshot of your application in use
-2. Save it as 'teleprompter-screenshot.png' in the public folder
-3. Then uncomment the following line
--->
-<!-- ![Teleprompter App Screenshot](public/teleprompter-screenshot.png) -->
+
 
 ## Features
 
